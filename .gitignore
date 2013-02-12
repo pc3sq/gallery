@@ -16,7 +16,6 @@
 
 #Ignore typical files not needed under git
 /.DS_Store
-/config/database.yml
 *.swp
 *~
 .project
