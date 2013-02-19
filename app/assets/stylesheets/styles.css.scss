@@ -1,0 +1,27 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+$baseFrontFamily: "Roboto Condensed";*/
+
+$btnPrimaryBackground: white;
+$navbarBackgroundHighlight: green;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(non !important);
+	border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+			color: $gray;
+	}
+}
