@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
+gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 group :development, :test do
 	gem 'sqlite3'
@@ -17,4 +20,4 @@ group :assets do
   gem 'bootstrap-sass', '~> 2.2.2.0'
 end
 
-gem 'jquery-rails'
+
