@@ -20,3 +20,6 @@
 *~
 .project
 .idea
+
+#Ignore public/system folder which contain Paperclip uploaded files
+public/system
